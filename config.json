@@ -1,0 +1,18 @@
+{
+    "email": {
+      "imapServer": "imap.qq.com:993",
+      "username": "yourmail@qq.com",
+      "password": "authorization_code",
+      "mailbox": "INBOX"
+    },
+    "webhook": {
+      "weComUrl": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=11111111111111"
+    },
+    "llm": {
+      "host": "https://dashscope.aliyuncs.com",
+      "api": "/api/v1/services/aigc/text-generation/generation",
+      "token": "sk-111111111111111",
+      "model": "qwen-max",
+      "prompt": "请根据以下三个等号分隔符内的微信聊天记录，提供一个简洁的摘要，包括主要讨论的话题和关键信息点。\r\n===\r\n[CHAT-RECORD]\r\n==="
+    }
+}
